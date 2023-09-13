@@ -20,7 +20,7 @@ The graphical user interface (GUI) used in this project is sourced externally. A
 
 ```
    pip install pygame
-´´´
+```
 
 ## How to Play
 
@@ -28,7 +28,7 @@ The graphical user interface (GUI) used in this project is sourced externally. A
 
 ```
    python runner.py
-´´´
+```
 
 2. Once the game window opens, choose whether you'd like to play as 'X' or 'O'.
 3. Make your move by clicking on an empty cell.

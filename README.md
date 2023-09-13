@@ -1,56 +1,47 @@
-Tic-Tac-Toe with AI Opponent
-Overview
-This is a simple implementation of the classic Tic-Tac-Toe game where you can challenge an AI opponent. Using the Minimax algorithm, the AI aims to make the optimal move every time, ensuring a competitive gameplay experience.
+# Tic-Tac-Toe with AI
 
-Table of Contents
-Disclaimer
-Prerequisites
-Installation
-Gameplay Instructions
-Code Structure
-Contribution & Feedback
-Disclaimer
-The graphical user interface in this project was sourced externally and is essential for the gameplay experience. All credits for the GUI go to its respective authors.
+## Overview
 
-Prerequisites
-Python (Version 3.6 or later is recommended)
-Pygame library
-Installation
-Ensure you have Python installed. You can verify with python --version in your terminal.
+Challenge an AI in the classic game of Tic-Tac-Toe! This implementation features an AI opponent that uses the Minimax algorithm, ensuring that it always makes the best possible move.
 
-Install the Pygame library:
+## Disclaimer
 
-bash
-Copy code
-pip install pygame
-Clone the repository or download the game files.
+The graphical user interface (GUI) used in this project is sourced externally. All credits for the GUI belong to the original author(s). This interface is essential for running the game, but please note that it is not my original creation.
 
-Navigate to the directory with the game files using your terminal or command prompt.
+## Prerequisites
 
-Gameplay Instructions
-Launch the game by running:
+- Python 3.x
+- Pygame library
 
-bash
-Copy code
-python archivo1.py
-The game window will appear. Choose your side: 'X' or 'O'.
+## Installation
 
-Click on an empty tile to make your move.
+1. Ensure you have Python installed on your system.
+2. Install the Pygame library:
 
-Watch as the AI opponent calculates and makes its move.
+```bash
+   pip install pygame
 
-The game ends once there's a winner or if the board is completely filled (tie).
 
-You can opt to play again by clicking on the "Play Again" button.
+## How to Play
 
-Code Structure
-archivo1.py:
+1. Run the game using:
 
-Contains the GUI logic.
-Handles the game loop and user interactions.
-archivo2.py:
 
-Defines the game's logic, including the board's initial state, valid actions, game result after an action, and checking for terminal states.
-Implements the Minimax algorithm to determine the AI's best possible move.
-Contribution & Feedback
-Improvements, bug fixes, and suggestions are welcome! While the graphical component isn't originally mine, feel free to provide feedback or contribute to the game logic or AI algorithm. Open an issue or submit a pull request if you have something to add.
+
+
+2. Once the game window opens, choose whether you'd like to play as 'X' or 'O'.
+3. Make your move by clicking on an empty cell.
+4. The AI opponent will take its turn.
+5. The game ends when there's a winner or if there's a tie (when the board is full).
+6. To play again, click the "Play Again" button.
+
+## Technical Details
+
+- `archivo1.py` handles the graphical interface and user interactions. It sets up the game board and captures user moves.
+
+- `archivo2.py` contains the logic behind the Tic-Tac-Toe game and the AI's Minimax algorithm. It defines functions that determine valid actions, the result of a move, and whether a game state is terminal.
+
+## Feedback & Contributions
+
+If you have feedback or would like to contribute, please raise an issue or submit a pull request. Feedback on the game's logic and AI algorithm is especially appreciated.
+

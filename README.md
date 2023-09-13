@@ -18,18 +18,17 @@ The graphical user interface (GUI) used in this project is sourced externally. A
 1. Ensure you have Python installed on your system.
 2. Install the Pygame library:
 
-```bash
+```
    pip install pygame
-bash```
-
-
+´´´
 
 ## How to Play
 
 1. Run the game using:
 
-
-
+```
+   python runner.py
+´´´
 
 2. Once the game window opens, choose whether you'd like to play as 'X' or 'O'.
 3. Make your move by clicking on an empty cell.
@@ -39,9 +38,9 @@ bash```
 
 ## Technical Details
 
-- `archivo1.py` handles the graphical interface and user interactions. It sets up the game board and captures user moves.
+- `runner.py` handles the graphical interface and user interactions. It sets up the game board and captures user moves.
 
-- `archivo2.py` contains the logic behind the Tic-Tac-Toe game and the AI's Minimax algorithm. It defines functions that determine valid actions, the result of a move, and whether a game state is terminal.
+- `tictactue.py` contains the logic behind the Tic-Tac-Toe game and the AI's Minimax algorithm. It defines functions that determine valid actions, the result of a move, and whether a game state is terminal.
 
 ## Feedback & Contributions
 

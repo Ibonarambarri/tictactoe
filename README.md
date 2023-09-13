@@ -20,6 +20,8 @@ The graphical user interface (GUI) used in this project is sourced externally. A
 
 ```bash
    pip install pygame
+bash```
+
 
 
 ## How to Play
